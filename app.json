@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "DhabaDelivery",
-    "slug": "DhabaDelivery",
+    "name": "EatJUIT",
+    "slug": "rnEatJUIT",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,16 +17,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "userInterfaceStyle": "light"
     },
     "android": {
+      
+      "userInterfaceStyle": "light",
+      "softwareKeyboardLayoutMode": "pan",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.EatJUIT.DhabaDelivery"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "082e5613-7812-4e45-86be-a95609968dbe"
+      }
     }
   }
 }
